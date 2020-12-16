@@ -6,14 +6,15 @@
 	<style>
 		body
 		{
-			text-align: center;
-			padding-top: 100px;
+			
 			background-image: linear-gradient(to bottom,#E6E6FA,#FFB6C1);
 			background-repeat: no-repeat;	
-			background-size: 100% 180%;
+			background-size: 1536px 750px;
 		}
 		.container
 		{
+			margin-left: 500px;
+			margin-top: 70px;
 			display: inline-block;
 			border: 3px solid black;
 			padding: 20px;
@@ -54,9 +55,41 @@
 		.cen button:hover{
 			background-color: black;
 		}
+		
+	.nav-area{
+			margin-top: 100px;
+			float: right;
+			margin-right: 200px;
+			list-style: none;
+		}
+		.nav-area li{
+			display: inline-block;
+		}
+		.nav-area li a{
+			color: black;
+			transition: background-color .5s;
+			text-decoration: none;
+			padding: 10px 10px;
+			font-family: inherit;
+			font-size: 25px;
+		}
+		.nav-area li a:hover {
+			background-color: grey;
+			
+		}
 	</style>
 </head>
 <body>
+			<div style="margin-top: 20px; margin-left: 20px; float: left;">
+				<h1 style="font-size:40px;"><b>Project Management System</b></h1>
+				<h3 style="font-size: 25px;"><b>Create | Upload | Approve</b></h3>
+			</div>
+			<ul class="nav-area">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contactus.html">Contact</a></li>
+			</ul>
+		<div style="clear: both;"></div>
 	<div class="container">
 		<h1>Student Login</h1>
 		<hr><br>
