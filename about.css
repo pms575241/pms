@@ -3,7 +3,7 @@
 	padding: 0;
 	}
 	.wrapper{
-		width: 1520px;
+		width: 1536px;
 	}
 	.article{
 		text-align: center;
@@ -17,8 +17,9 @@
 			position: absolute;
 		}
 	.nav-area{
+			margin-top: 100px;
 			float: right;
-			margin-right: 200px;
+			
 			list-style: none;
 		}
 		.nav-area li{
@@ -36,6 +37,4 @@
 			background-color: grey;
 			
 		}
-
-
 
