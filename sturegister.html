@@ -6,7 +6,6 @@
 	<style>
 		body
 		{
-			text-align: center;
 			background-image: linear-gradient(to bottom,#E6E6FA,#FFB6C1);
 			background-repeat: no-repeat;
 		}
@@ -14,6 +13,7 @@
 		{
 			display: inline-block;
 			border: 3px solid black;
+			margin-left: 500px;
 			padding-top: 20px;
 			padding-bottom: 10px;
 			padding-left: 50px;
@@ -62,9 +62,40 @@
 		.cen button:hover{
 			background-color: black;
 		}
+		.nav-area{
+			margin-top: 100px;
+			float: right;
+			margin-right: 200px;
+			list-style: none;
+		}
+		.nav-area li{
+			display: inline-block;
+		}
+		.nav-area li a{
+			color: black;
+			transition: background-color .5s;
+			text-decoration: none;
+			padding: 10px 10px;
+			font-family: inherit;
+			font-size: 25px;
+		}
+		.nav-area li a:hover {
+			background-color: grey;
+			
+		}
 	</style>
 </head>
 <body>
+		<div style="margin-top: 20px; margin-left: 20px; float: left;">
+			<h1 style="font-size:40px;"><b>Project Management System</b></h1>
+			<h3 style="font-size: 25px;"><b>Create | Upload | Approve</b></h3>
+		</div>
+		<ul class="nav-area">
+			<li><a href="file:///D:/HTML/miniproject.html">Home</a></li>
+			<li><a href="file:///D:/HTML/about.html">About</a></li>
+			<li><a href="file:///D:/HTML/contactus.html">Contact</a></li>
+		</ul>
+		<div style="clear: both;"></div>
 	<div class="container">
 		<h1>Student Registration</h1>
 		<hr><br>
@@ -109,9 +140,9 @@
 		        <div class="cen">
 		        	<button type="submit">Register</button>
 		        </div>
-		        <br>
-		        <h2>If already have an account login here</h2>
-		        <br>
+		        
+		        <h2>already have an account ?</h2>
+		        
 		        <div class="cen">
 		        	<button onclick="document.location='stulogin.html'">Login</button>
 		        </div>
